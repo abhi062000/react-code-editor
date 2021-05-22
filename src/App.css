@@ -1,0 +1,40 @@
+.pane {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.top-pane {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.bottom-pane {
+  width: 100%;
+  height: 100%;
+}
+
+.editor-container {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem;
+  background-color: hsl(209, 85%, 10%);
+  color: aliceblue;
+  overflow: hidden;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.editor-title {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 2px;
+}
+
+.code-wrapper {
+  flex-grow: 1;
+  overflow: hidden;
+}
